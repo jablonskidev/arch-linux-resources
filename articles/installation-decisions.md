@@ -14,6 +14,7 @@
   - [Network Configuration](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#network-configuration)
     - [During Installation](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#during-installation)
     - [After Installation](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#after-installation)    
+  - [Kernel Choice](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#kernel-choice)
   - [User Account Setup](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#user-account-setup)
   - [Boot Loader Choice](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#boot-loader-choice)
   - [Desktop Environment Planning](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#desktop-environment-planning)
@@ -109,6 +110,18 @@ iwctl station wlan0 connect "Network Name"
 | **systemd-networkd** | Servers, advanced users | Complex | Lightweight, no GUI needed, more control |
 
 **Quick Decision**: Choose NetworkManager for desktop systems. It handles WiFi passwords, VPNs, and network switching automatically.
+
+### Kernel Choice
+
+**Why the kernel matters**: The kernel is the core of your system.
+
+Options:
+- **linux:** Latest stable kernel, best hardware support, most features
+- **linux-lts:** Older stable version, more conservative, longer support
+- **linux-zen:** Performance optimizations, good for desktop/gaming
+- **linux-hardened:** Security-focused patches, may break some software
+
+**Quick Decision**: linux (regular kernel) for best hardware compatibility
 
 ### User Account Setup
 
