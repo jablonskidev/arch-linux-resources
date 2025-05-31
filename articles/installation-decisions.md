@@ -2,27 +2,27 @@
 
 **[Note: This article is a work in progress.]**
 
-- Overview
-- Pre-Installation Planning
-  - Check Your Hardware
-  - Create Installation Media
-- Critical Installation Decisions
-  - Disk Partitioning Strategy
-    - Single vs Dual Boot
-    - Partition Scheme (UEFI Systems)
-    - File System Choice
-  - Network Configuration
-    - During Installation
-    - After Installation    
-  - User Account Setup
-  - Boot Loader Choice
-  - Desktop Environment Planning
-    - Display Server
-    - Desktop Environment Options
-    - Essential First Software
-- Decision Summary Checklist
-- Troubleshooting Common Decision Points
-- Final Tips
+- [Overview](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#overview)
+- [Pre-Installation Planning](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#pre-installation-planning)
+  - [Check Your Hardware](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#check-your-hardware)
+  - [Create Installation Media](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#create-installation-media)
+- [Critical Installation Decisions](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#critical-installation-decisions)
+  - [Disk Partitioning Strategy](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#disk-partitioning-strategy)
+    - [Single vs Dual Boot](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#single-vs-dual-boot)
+    - [Partition Scheme (UEFI Systems)](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#partition-scheme-uefi-systems)
+    - [File System Choice](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#network-configuration)
+  - [Network Configuration](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#network-configuration)
+    - [During Installation](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#during-installation)
+    - [After Installation](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#after-installation)    
+  - [User Account Setup](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#user-account-setup)
+  - [Boot Loader Choice](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#boot-loader-choice)
+  - [Desktop Environment Planning](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#desktop-environment-planning)
+    - [Display Server](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#display-server)
+    - [Desktop Environment Options](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#desktop-environment-options)
+    - [Essential First Software](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#essential-first-software)
+- [Decision Summary Checklist](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#decision-summary-checklist)
+- [Troubleshooting Common Decision Points](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#troubleshooting-common-decision-points)
+- [Final Tips](https://github.com/jablonskidev/arch-linux-resources/blob/main/articles/installation-decisions.md#final-tips)
 
 ## Overview
 
